@@ -1,0 +1,80 @@
+{
+  "ad90d920d26119b2c7f84369133d7a0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d5a9f6e7831cb82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593610276442,
+        "stop" : 1593610290468,
+        "duration" : 14026
+      }
+    } ]
+  },
+  "1c0ff4d3b6e8ecca9f21b9e0f04090e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc0714cf280863e6",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=83.0.4103.116)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f0df22c9a92d7fee8be1e7b2e88e9be1",
+      "time" : {
+        "start" : 1593610343899,
+        "stop" : 1593610346872,
+        "duration" : 2973
+      }
+    } ]
+  },
+  "c62359ee5f688f0205da29ae183eaf07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4429edcb0fd4751a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"v-btn__content\" style=\"outline: dashed 2px red;\">...</div> is not clickable at point (905, 530). Other element would receive the click: <div class=\"v-overlay v-overlay--active\" style=\"z-index: 203;\"></div>\n  (Session info: chrome=83.0.4103.116)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f0df22c9a92d7fee8be1e7b2e88e9be1",
+      "time" : {
+        "start" : 1593610293291,
+        "stop" : 1593610343689,
+        "duration" : 50398
+      }
+    } ]
+  },
+  "ee13d1bcbb42fd42930b6f3e6a9cd2bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2223c7cc9943570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593610270087,
+        "stop" : 1593610274045,
+        "duration" : 3958
+      }
+    } ]
+  }
+}

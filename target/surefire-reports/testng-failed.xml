@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Valid Login Scenario]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
+    <classes>
+      <class name="pages.TestPageConsinment">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearBrowser"/>
+          <include name="doStarted" invocation-numbers="0 1"/>
+          <include name="waitForLoad"/>
+        </methods>
+      </class> <!-- pages.TestPageConsinment -->
+    </classes>
+  </test> <!-- Check login and logout successfully(failed) -->
+</suite> <!-- Failed suite [Valid Login Scenario] -->

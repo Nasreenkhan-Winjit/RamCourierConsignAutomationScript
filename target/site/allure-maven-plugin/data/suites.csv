@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"broken","pages.TestPageConsinment.doStarted","50398",""
+"broken","pages.TestPageConsinment.doStarted","2973",""
+"passed","pages.LoginPageTest.signIn","3958","Verify valid user are allowed to access"
+"passed","pages.TestPageConsinment.clickOnConsignment","14026","Verify valid user are allowed to access"

@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WJLP-1098",
+    "children" : [ {
+      "name" : "4320@WJLP-1098.main(1)",
+      "children" : [ {
+        "name" : "doStarted",
+        "uid" : "4429edcb0fd4751a",
+        "parentUid" : "64207b90a364435d2f834a1a8914efd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593610293291,
+          "stop" : 1593610343689,
+          "duration" : 50398
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=CELL, NumberOfParcel=1, ConsignmentID=UAT42092125}" ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "cc0714cf280863e6",
+        "parentUid" : "64207b90a364435d2f834a1a8914efd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593610343899,
+          "stop" : 1593610346872,
+          "duration" : 2973
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=xxxxxxx, InvalidShipperReference=eeee, ReceiverName2=Anand, SenderName=CELL, NumberOfParcel=1, ConsignmentID=UAT42092135}" ]
+      }, {
+        "name" : "signIn",
+        "uid" : "a2223c7cc9943570",
+        "parentUid" : "64207b90a364435d2f834a1a8914efd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593610270087,
+          "stop" : 1593610274045,
+          "duration" : 3958
+        },
+        "flaky" : false,
+        "parameters" : [ "{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}" ]
+      }, {
+        "name" : "clickOnConsignment",
+        "uid" : "8d5a9f6e7831cb82",
+        "parentUid" : "64207b90a364435d2f834a1a8914efd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593610276442,
+          "stop" : 1593610290468,
+          "duration" : 14026
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64207b90a364435d2f834a1a8914efd0"
+    } ],
+    "uid" : "ad6c2eed06f62fa6ccc030265a6f0de3"
+  } ]
+}

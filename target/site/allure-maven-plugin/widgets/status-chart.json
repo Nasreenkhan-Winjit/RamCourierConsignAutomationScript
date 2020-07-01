@@ -1,0 +1,41 @@
+[ {
+  "uid" : "4429edcb0fd4751a",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1593610293291,
+    "stop" : 1593610343689,
+    "duration" : 50398
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc0714cf280863e6",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1593610343899,
+    "stop" : 1593610346872,
+    "duration" : 2973
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a2223c7cc9943570",
+  "name" : "signIn",
+  "time" : {
+    "start" : 1593610270087,
+    "stop" : 1593610274045,
+    "duration" : 3958
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8d5a9f6e7831cb82",
+  "name" : "clickOnConsignment",
+  "time" : {
+    "start" : 1593610276442,
+    "stop" : 1593610290468,
+    "duration" : 14026
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
